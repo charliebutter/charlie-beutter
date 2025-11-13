@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --bg-color: #1e1e1e;
+  --text: #e8e8e8;
+  --text-hover: #ffffff;
+  --accent-red: #ff5252;
+  --accent-red-hover: #ff7a7a;
+  --accent-yellow: #ffd93d;
+  --accent-yellow-hover: #ffe570;
+  --accent-green: #00e676;
+  --accent-green-hover: #33ff99;
+  --accent-blue: #2196f3;
+  --accent-blue-hover: #42a5f5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: var(--bg-color);
+    color: var(--text);
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1.1rem;
+    color: var(--text);
+    line-height: 1.8;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text);
+}
+
+a:hover {
+    color: var(--text-hover);
+}
+
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.content {
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.home-nav-link {
+    margin-bottom: 3rem;
+}
+
+.header-nav-link {
+    margin: 0;
+}
+
+.entry-section {
+    margin-bottom: 2.5rem;
+}
+
+.entry-section:last-child {
+    margin-bottom: 0;
+}
+
+.about-text {
+    font-size: 1.2rem;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.accent-red {
+    color: var(--accent-red);
+}
+
+.accent-red:hover {
+    color: var(--accent-red-hover);
+}
+
+.accent-yellow {
+    color: var(--accent-yellow);
+}
+
+.accent-yellow:hover {
+    color: var(--accent-yellow-hover);
+}
+
+.accent-green {
+    color: var(--accent-green);
+}
+
+.accent-green:hover {
+    color: var(--accent-green-hover);
+}
+
+.accent-blue {
+    color: var(--accent-blue);
+}
+
+.accent-blue:hover {
+    color: var(--accent-blue-hover);
+}
