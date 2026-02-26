@@ -92,6 +92,16 @@ a:hover {
     margin: 0;
 }
 
+.section-label {
+    margin-bottom: 1.5rem;
+    color: var(--accent-yellow);
+    opacity: 0.9;
+}
+
+.section-label-gap {
+    margin-top: 3rem;
+}
+
 .entry-section {
     margin-bottom: 2.5rem;
 }
@@ -138,4 +148,8 @@ a:hover {
 
 .accent-blue:hover {
     color: var(--accent-blue-hover);
+}
+
+.upcoming-title {
+    opacity: 0.45;
 }
